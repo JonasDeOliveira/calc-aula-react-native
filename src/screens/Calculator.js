@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { 
     StyleSheet, View
  } from 'react-native'
+ import Display from '../components/Display'
 
  export default class Calculator extends Component {
 
@@ -9,7 +10,9 @@ import {
 
     render() {
         return (
-            <View></View>
+            <View>
+                <Display/>
+            </View>
         )
     }
  }
