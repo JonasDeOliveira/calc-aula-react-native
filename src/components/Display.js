@@ -7,7 +7,7 @@ import {
      return (
         <View style={styles.display}>
             <Text style={styles.displayValue}>
-                0
+                {props.value}
             </Text>
         </View>
      )

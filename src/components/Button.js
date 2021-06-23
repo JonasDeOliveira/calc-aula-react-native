@@ -1,6 +1,6 @@
 import React from 'react'
 import { 
-    StyleSheet, Text, TouchableOpacity, Dimensions
+    StyleSheet, Text, TouchableOpacity, Dimensions,
  } from 'react-native'
 
  export default props => {
@@ -11,7 +11,7 @@ import {
     if (props.threeCollumns) stylesButton.push(styles.threeCollumns)
 
     return (
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => props.onTouch(props.label)}>
             <Text style={stylesButton}>
                 {props.label}
             </Text>
