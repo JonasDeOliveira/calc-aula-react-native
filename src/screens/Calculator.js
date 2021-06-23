@@ -9,7 +9,7 @@ import {
 
     render() {
         return (
-
+            <View></View>
         )
     }
  }
